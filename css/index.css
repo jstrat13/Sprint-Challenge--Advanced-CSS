@@ -176,6 +176,11 @@ p {
   justify-content: space-around;
   padding-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .navBar nav {
+    width: 80%;
+  }
+}
 .navBar nav a {
   text-decoration: none;
   font-size: 1.5rem;
@@ -190,14 +195,23 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro {
+  display: flex;
+  flex-direction: column;
+}
 .home .intro h2 {
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
 }
-.home .intro img {
+.home .intro .headerImg {
+  display: flex;
+  justify-content: center;
+}
+.home .intro .headerImg img {
   border-radius: 10px;
+  width: 95%;
 }
 .home .space-images {
   display: flex;
@@ -234,6 +248,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 35%;
+  height: 40px;
+  font-size: 2rem;
+  background-color: #22283A;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .home .walk .walk-img {
   width: 46%;
