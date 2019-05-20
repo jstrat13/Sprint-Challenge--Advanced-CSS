@@ -160,6 +160,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+.navBar h1 {
+  font-size: 4rem;
+  padding: 20px 0px;
+}
+.navBar nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.navBar nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -175,6 +195,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 10px;
 }
 .home .space-images {
   display: flex;
