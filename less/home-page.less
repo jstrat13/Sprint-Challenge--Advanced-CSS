@@ -70,7 +70,12 @@
       }
 
       .btn {
+        &:hover {
+          background-color: lighten(@btn-bg-color, 10%);
+          color: lighten(white, 10%);
+        }
         .btnStyle(35%, 40px)
+        
         
       }
     }
